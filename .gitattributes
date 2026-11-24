@@ -1,0 +1,4 @@
+# Store and check out every file byte-for-byte, on every platform.
+# 07_Documentation/ORIGINAL_FILE_HASHES.sha256 hashes working-tree bytes, so
+# any CRLF/LF conversion on checkout would make verify_originals.py fail.
+* -text
