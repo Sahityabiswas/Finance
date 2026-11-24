@@ -1,0 +1,65 @@
+[
+  {
+    "check": "standard_BS_benchmark_CE",
+    "expected": 10.450583572185565,
+    "actual": 10.450583572185565,
+    "status": "PASS"
+  },
+  {
+    "check": "standard_BS_benchmark_PE",
+    "expected": 5.573526022256971,
+    "actual": 5.573526022256971,
+    "status": "PASS"
+  },
+  {
+    "check": "put_call_parity",
+    "max_abs_error": 1.1368683772161603e-13,
+    "tolerance": 1e-10,
+    "status": "PASS"
+  },
+  {
+    "check": "iv_recovery",
+    "max_abs_error": 3.885780586188048e-16,
+    "tolerance": 1e-10,
+    "status": "PASS"
+  },
+  {
+    "check": "delta_finite_difference",
+    "max_abs_error": 8.599816969656615e-09,
+    "tolerance": 1e-07,
+    "status": "PASS"
+  },
+  {
+    "check": "gamma_finite_difference",
+    "max_abs_error": 2.1467133209940314e-09,
+    "tolerance": 1e-07,
+    "status": "PASS"
+  },
+  {
+    "check": "vega_finite_difference",
+    "max_abs_error": 6.712852496093547e-11,
+    "tolerance": 1e-07,
+    "status": "PASS"
+  },
+  {
+    "check": "market_IV_repricing",
+    "max_abs_error": 9.237055564881302e-14,
+    "status": "PASS"
+  },
+  {
+    "check": "all_selected_contracts_traded_positive_OI",
+    "count": 4,
+    "status": "PASS"
+  },
+  {
+    "check": "volume_units_reconcile_notional_turnover_and_lot",
+    "count": 4,
+    "status": "PASS"
+  },
+  {
+    "check": "no_lookahead_252_return_volatility",
+    "last_return": "2025-12-31",
+    "count_each": 252,
+    "status": "PASS"
+  }
+]

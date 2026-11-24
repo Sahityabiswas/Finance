@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/015dd33d0799/Finance_Project_Complete/02_Completed_Project/scripts/options_analyze.py", line 221, in <module>
+    main()
+  File "/workspace/scratch/015dd33d0799/Finance_Project_Complete/02_Completed_Project/scripts/options_analyze.py", line 132, in main
+    days=(pd.Timestamp(raw.FininstrmActlXpryDt)-pd.Timestamp(raw.TradDt)).days
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'FininstrmActlXpryDt'

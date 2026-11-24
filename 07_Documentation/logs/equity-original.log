@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/015dd33d0799/Finance_Project_Complete/02_Completed_Project/scripts/analyze.py", line 181, in <module>
+    parser=argparse.ArgumentParser();parser.add_argument('--no-charts',action='store_true');args=parser.parse_args();main(charts=not args.no_charts)
+                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/015dd33d0799/Finance_Project_Complete/02_Completed_Project/scripts/analyze.py", line 153, in main
+    assert abs(err)<.011,t+' vendor/exchange close mismatch'
+           ^^^^^^^^^^^^^
+AssertionError: MUTHOOTFIN vendor/exchange close mismatch

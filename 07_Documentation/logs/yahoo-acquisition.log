@@ -1,0 +1,8 @@
+HDFCBANK.NS 1240 114431 ['dividends', 'splits']
+ICICIBANK.NS 1240 119987 ['dividends']
+SBIN.NS 1240 117490 ['dividends']
+BAJFINANCE.NS 1240 119169 ['dividends', 'splits']
+SHRIRAMFIN.NS 1240 127079 ['dividends', 'splits']
+MUTHOOTFIN.NS 1240 113656 ['dividends']
+^NSEI 1240 111777 []
+Process exit: 0

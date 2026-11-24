@@ -1,0 +1,279 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+RUN: python -X utf8 scripts/analyze.py
+{
+  "metadata": {
+    "start_date": "2021-01-01",
+    "end_date": "2025-12-31",
+    "base_date": "2020-12-31",
+    "n_returns": 1236,
+    "n_price_observations": 1237,
+    "calendar_years": 4.999315537303217,
+    "trading_days_per_year": 252,
+    "risk_free_rate": 0.06,
+    "risk_free_daily": 0.00023125256064071564,
+    "currency": "INR",
+    "generated_utc": "2026-11-18T17:56:24.190846+00:00",
+    "return_type": "simple daily adjusted-close return",
+    "portfolio_rebalancing": "daily; equal constituent weights; no taxes or transaction costs",
+    "benchmark": "NIFTY 50 price index (^NSEI), not TRI",
+    "cagr_convention": "(terminal wealth)^(365.25/calendar days)-1",
+    "annual_mean_convention": "252 * arithmetic mean daily return",
+    "volatility_convention": "sample daily standard deviation (ddof=1) * sqrt(252)",
+    "sharpe_convention": "(mean daily return - effective daily rf) / sample daily sd * sqrt(252)",
+    "var_convention": "negative linear-interpolated 5th return percentile, 1-day loss at 95% confidence",
+    "cvar_convention": "negative average return at or below the 5th return percentile",
+    "max_drawdown_convention": "minimum wealth / running wealth maximum - 1; includes initial base wealth",
+    "primary_equity_source": "Yahoo Finance chart API; NSE underlying-price and corporate-action checks"
+  },
+  "portfolio_metrics": [
+    {
+      "ticker": "BANKS",
+      "name": "Bank portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 1.5572794187238461,
+      "cagr": 0.20660967292497734,
+      "annual_mean": 0.20951338700990507,
+      "annual_volatility": 0.18988451744437945,
+      "sharpe": 0.7964722125001317,
+      "beta": 1.121728343854767,
+      "max_drawdown": -0.1856482013437779,
+      "var95": 0.016794081029406282,
+      "cvar95": 0.02644303982545514,
+      "daily_mean": 0.0008314023294043852,
+      "daily_std": 0.011961600261412715,
+      "best_day": 0.09593500117028879,
+      "worst_day": -0.09233892971201767
+    },
+    {
+      "ticker": "NBFCS",
+      "name": "NBFC portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 2.5935235645843226,
+      "cagr": 0.29157405039457895,
+      "annual_mean": 0.2895775863885931,
+      "annual_volatility": 0.2394749686896682,
+      "sharpe": 0.9658710568905984,
+      "beta": 1.135989046010737,
+      "max_drawdown": -0.32084150401851685,
+      "var95": 0.02236751254193948,
+      "cvar95": 0.03202306316505996,
+      "daily_mean": 0.0011491174063039409,
+      "daily_std": 0.01508550505661527,
+      "best_day": 0.05717591313949518,
+      "worst_day": -0.0829469292628281
+    },
+    {
+      "ticker": "MIXED",
+      "name": "50:50 mixed portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 2.1075442160092464,
+      "cagr": 0.2545759179836937,
+      "annual_mean": 0.2495454866992491,
+      "annual_volatility": 0.1910598238433586,
+      "sharpe": 1.0010992241602943,
+      "beta": 1.1288586949327517,
+      "max_drawdown": -0.23699197172208308,
+      "var95": 0.017597423537915647,
+      "cvar95": 0.02662661267818,
+      "daily_mean": 0.0009902598678541632,
+      "daily_std": 0.012035637605365137,
+      "best_day": 0.07223231982055345,
+      "worst_day": -0.07822207515915507
+    }
+  ],
+  "individual_metrics": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 0.4571880390426164,
+      "cagr": 0.07822053042485955,
+      "annual_mean": 0.09928780107521011,
+      "annual_volatility": 0.21230295527044,
+      "sharpe": 0.19317750778130643,
+      "beta": 1.053261578460626,
+      "max_drawdown": -0.23242849748212924,
+      "var95": 0.019944108868954424,
+      "cvar95": 0.030993885886799535,
+      "daily_mean": 0.00039399921061591313,
+      "daily_std": 0.013373829101182231,
+      "best_day": 0.10013300910847356,
+      "worst_day": -0.08435816933540463
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 1.5950075733833353,
+      "cagr": 0.21014961223887507,
+      "annual_mean": 0.21866985541196127,
+      "annual_volatility": 0.22075641413064104,
+      "sharpe": 0.7265664771832249,
+      "beta": 1.0821897002205783,
+      "max_drawdown": -0.22329810841757614,
+      "var95": 0.01877916640190902,
+      "cvar95": 0.028880905233132248,
+      "daily_mean": 0.0008677375214760368,
+      "daily_std": 0.013906346955049076,
+      "best_day": 0.12439450752330505,
+      "worst_day": -0.07633626236988356
+    },
+    {
+      "ticker": "SBIN",
+      "name": "State Bank of India",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 2.8714873975311423,
+      "cagr": 0.3109667215160625,
+      "annual_mean": 0.3105825045425439,
+      "annual_volatility": 0.26256258338090355,
+      "sharpe": 0.9609398872156057,
+      "beta": 1.2297337528830958,
+      "max_drawdown": -0.23944134526280159,
+      "var95": 0.02260739475964116,
+      "cvar95": 0.03502408648426748,
+      "daily_mean": 0.0012324702561212059,
+      "daily_std": 0.016539888076584082,
+      "best_day": 0.1070120459285695,
+      "worst_day": -0.14404019893146525
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "name": "Bajaj Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 0.9024539823551521,
+      "cagr": 0.1372880618672121,
+      "annual_mean": 0.17212742698889327,
+      "annual_volatility": 0.2866298739172692,
+      "sharpe": 0.39720835847101654,
+      "beta": 1.2538223300991538,
+      "max_drawdown": -0.3336233427764006,
+      "var95": 0.026969351742193753,
+      "cvar95": 0.04045209784341343,
+      "daily_mean": 0.0006830453451940209,
+      "daily_std": 0.018055984873973648,
+      "best_day": 0.10634961769930062,
+      "worst_day": -0.0772731529089683
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "name": "Shriram Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 4.213313565704151,
+      "cagr": 0.39136926492885715,
+      "annual_mean": 0.4028395258416227,
+      "annual_volatility": 0.3645984809979746,
+      "sharpe": 0.9450502361310621,
+      "beta": 1.3164554548323213,
+      "max_drawdown": -0.38353350515618845,
+      "var95": 0.03140741178175674,
+      "cvar95": 0.04642924284952479,
+      "daily_mean": 0.0015985695469905663,
+      "daily_std": 0.0229675454550607,
+      "best_day": 0.1622264846786039,
+      "worst_day": -0.11479310072639215
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "name": "Muthoot Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 2.4138165948243233,
+      "cagr": 0.27838786169805685,
+      "annual_mean": 0.29376580633526334,
+      "annual_volatility": 0.29524230878022634,
+      "sharpe": 0.7976165815350608,
+      "beta": 0.8376893531007354,
+      "max_drawdown": -0.4570447403633713,
+      "var95": 0.025931965452862055,
+      "cvar95": 0.0371116255812146,
+      "daily_mean": 0.0011657373267272354,
+      "daily_std": 0.018598517274690963,
+      "best_day": 0.09860950455703321,
+      "worst_day": -0.1240525811932276
+    }
+  ],
+  "trailing252_volatility": [
+    {
+      "ticker": "HDFCBANK",
+      "date": "2025-12-31",
+      "spot_close": 991.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.15529602091214834
+    },
+    {
+      "ticker": "ICICIBANK",
+      "date": "2025-12-31",
+      "spot_close": 1342.9000244140625,
+      "n_returns": 252,
+      "volatility": 0.16204777102113496
+    },
+    {
+      "ticker": "SBIN",
+      "date": "2025-12-31",
+      "spot_close": 982.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.17997064452154657
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "date": "2025-12-31",
+      "spot_close": 986.7999877929688,
+      "n_returns": 252,
+      "volatility": 0.2656305567162444
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "date": "2025-12-31",
+      "spot_close": 996.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.34528682547466016
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "date": "2025-12-31",
+      "spot_close": 3811.699951171875,
+      "n_returns": 252,
+      "volatility": 0.3192387094015524
+    }
+  ]
+}
+EXIT 0: scripts/analyze.py
+RUN: python -X utf8 scripts/options_analyze.py
+    symbol option_type  spot  strike  market_price  sigma_historical  bs_price  derived_iv     delta    gamma  vega_per_1pp
+  HDFCBANK          CE 991.2   990.0         20.90          0.155296 19.525828    0.168213  0.560347 0.009420      1.063163
+  HDFCBANK          PE 991.2   990.0         13.25          0.155296 14.067812    0.147600 -0.439653 0.009420      1.063163
+BAJFINANCE          CE 986.8   990.0         28.00          0.265631 28.952224    0.256726  0.520326 0.005589      1.069327
+BAJFINANCE          PE 986.8   990.0         24.30          0.265631 27.894208    0.232021 -0.479674 0.005589      1.069327
+Wrote observations, results, validation and two charts.
+EXIT 0: scripts/options_analyze.py
+RUN: python -X utf8 scripts/complete_outputs.py
+Generated workbook inputs, portfolio comparisons and four supplementary charts.
+EXIT 0: scripts/complete_outputs.py
+LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5
+
+RUN: python -X utf8 scripts/build_workbook_portable.py
+convert /tmp/finance-workbook-ucjgyvpk/Finance_Analysis.xlsx as a Calc document -> /tmp/finance-workbook-ucjgyvpk/recalculated/Finance_Analysis.xlsx using filter : Calc Office Open XML
+/tmp/finance clean project/02_Completed_Project/output/Finance_Analysis.xlsx
+EXIT 0: scripts/build_workbook_portable.py
+RUN: python -X utf8 scripts/build_report.py
+/tmp/finance clean project/02_Completed_Project/output/Final_Research_Report.docx
+EXIT 0: scripts/build_report.py
+convert /tmp/finance clean project/02_Completed_Project/output/Final_Research_Report.docx as a Writer document -> /tmp/finance-report-98p18afp/Final_Research_Report.pdf using filter : writer_pdf_Export
+RUN: python -X utf8 validate_results.py
+PASS: raw source hashes, aligned dates and archived NSE data
+PASS: agreement with delivered numerical baseline
+PASS: raw adjusted-price returns, equity metrics, annual returns, drawdown and portfolio diversification
+PASS: NSE contract selection, spot and premiums, pre-expiry volatility, pricing, implied volatility and Greeks
+PASS: 7 workbook sheets, 2 charts, no cached formula errors and full-series agreement with independent Python
+PASS: 12 final charts, verified report values and both report formats
+EXIT 0: validate_results.py
+PASS: offline project rebuilt and validated in /tmp/finance clean project/02_Completed_Project/output
+Whole pipeline exit: 0

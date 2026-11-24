@@ -1,0 +1,9 @@
+2026-11-18T18:00:57.131988+00:00 HTTP 200 181894 bytes https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20251231_F_0000.csv.zip
+SHA-256: 05a2124e2234fbfe6ed9f9e13293768b1270331980e6836d975adfda07c8b678
+TradDt,TckrSymb,SctySrs,ClsPric
+2025-12-31,MUTHOOTFIN,EQ,3811.7
+2026-11-18T18:01:03.482155+00:00 HTTP 200 351513 bytes https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_31122025.csv
+SHA-256: 219a32c3fce27388a0dd03f9b5ad4f23f0b6f74fbcac4348fd8bfeff293a06ee
+DATE1,SYMBOL,SERIES,CLOSE_PRICE
+31-Dec-2025,MUTHOOTFIN,EQ,3811.7
+PASS: two official NSE cash-market records confirm the 3811.70 INR EQ close

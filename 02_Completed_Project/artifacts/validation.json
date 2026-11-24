@@ -1,0 +1,181 @@
+{
+  "sources": [
+    {
+      "ticker": "HDFCBANK",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 1,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "ICICIBANK",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 1,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "SBIN",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 1,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 1,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 2,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 1,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    },
+    {
+      "ticker": "NIFTY50",
+      "raw_rows": 1240,
+      "missing_rows": 0,
+      "duplicate_dates": 0,
+      "zero_volume_rows": 12,
+      "first_raw_date": "2020-12-28",
+      "last_raw_date": "2025-12-31"
+    }
+  ],
+  "dropped_dates": [],
+  "retained_price_rows": 8659,
+  "annual_return_counts": {
+    "2021": 248,
+    "2022": 248,
+    "2023": 245,
+    "2024": 246,
+    "2025": 249
+  },
+  "split_continuity": [
+    {
+      "ticker": "BAJFINANCE",
+      "ex_date": "2025-06-16",
+      "official_factor": 10,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP68547.pdf",
+      "prior_trading_day": "2025-06-13",
+      "adjusted_return": 0.005251371778720593,
+      "prior_adjusted_close": 927.3990478515625,
+      "ex_date_adjusted_close": 932.2691650390625
+    },
+    {
+      "ticker": "HDFCBANK",
+      "ex_date": "2025-08-26",
+      "official_factor": 2,
+      "source_url": "https://www.nseindia.com/get-quote/equity/HDFCBANK/HDFC-Bank-Limited",
+      "prior_trading_day": "2025-08-25",
+      "adjusted_return": -0.008808058620231485,
+      "prior_adjusted_close": 966.0717163085938,
+      "ex_date_adjusted_close": 957.5625
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "ex_date": "2025-01-10",
+      "official_factor": 5,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP66059.pdf",
+      "prior_trading_day": "2025-01-09",
+      "adjusted_return": -0.05333035980934109,
+      "prior_adjusted_close": 550.3759155273438,
+      "ex_date_adjusted_close": 521.024169921875
+    }
+  ],
+  "official_close_checks": [
+    {
+      "date": "2025-12-31",
+      "ticker": "BAJFINANCE",
+      "yahoo_close": 986.7999877929688,
+      "nse_fo_underlying_price": 986.8,
+      "difference": -1.2207031204525265e-05,
+      "status": "within_tolerance"
+    },
+    {
+      "date": "2025-12-31",
+      "ticker": "HDFCBANK",
+      "yahoo_close": 991.2000122070312,
+      "nse_fo_underlying_price": 991.2,
+      "difference": 1.2207031204525265e-05,
+      "status": "within_tolerance"
+    },
+    {
+      "date": "2025-12-31",
+      "ticker": "ICICIBANK",
+      "yahoo_close": 1342.9000244140625,
+      "nse_fo_underlying_price": 1342.9,
+      "difference": 2.441406240905053e-05,
+      "status": "within_tolerance"
+    },
+    {
+      "date": "2025-12-31",
+      "ticker": "MUTHOOTFIN",
+      "yahoo_close": 3811.699951171875,
+      "nse_fo_underlying_price": 3811.75,
+      "difference": -0.050048828125,
+      "status": "documented_source_difference"
+    },
+    {
+      "date": "2025-12-31",
+      "ticker": "SBIN",
+      "yahoo_close": 982.2000122070312,
+      "nse_fo_underlying_price": 982.2,
+      "difference": 1.2207031204525265e-05,
+      "status": "within_tolerance"
+    },
+    {
+      "date": "2025-12-31",
+      "ticker": "SHRIRAMFIN",
+      "yahoo_close": 996.2000122070312,
+      "nse_fo_underlying_price": 996.2,
+      "difference": 1.2207031204525265e-05,
+      "status": "within_tolerance"
+    }
+  ],
+  "max_abs_daily_return": {
+    "HDFCBANK": 0.10013300910847356,
+    "ICICIBANK": 0.12439450752330505,
+    "SBIN": 0.14404019893146525,
+    "BAJFINANCE": 0.10634961769930062,
+    "SHRIRAMFIN": 0.1622264846786039,
+    "MUTHOOTFIN": 0.1240525811932276,
+    "NIFTY50": 0.05929359941641077
+  },
+  "tests_passed": [
+    "no missing/duplicate/nonpositive prices",
+    "OHLC internal consistency",
+    "same dates across all seven series",
+    "five NSE close checks within 0.011 INR and documented MUTHOOTFIN 0.05 INR difference",
+    "2025 corporate action return continuity",
+    "mixed weighting identity",
+    "geometric stock wealth identity",
+    "NIFTY beta=1",
+    "annual versus daily compounding identity",
+    "CVaR >= VaR",
+    "mixed variance equals covariance quadratic form",
+    "absolute daily adjusted returns below 50%"
+  ]
+}

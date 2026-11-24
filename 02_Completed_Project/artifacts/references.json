@@ -1,0 +1,145 @@
+[
+  {
+    "id": "markowitz1952",
+    "author": "Markowitz, H.",
+    "year": 1952,
+    "title": "Portfolio Selection",
+    "publication": "The Journal of Finance, 7(1), 77–91",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.1952.tb01525.x",
+    "evidence": "Publisher metadata verified in search; mean-variance portfolio selection.",
+    "access": "Publisher search-index metadata",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "sharpe1964",
+    "author": "Sharpe, W. F.",
+    "year": 1964,
+    "title": "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+    "publication": "The Journal of Finance, 19(3), 425–442",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.1964.tb02865.x",
+    "evidence": "Publisher full text indexed; diversification and systematic risk in equilibrium.",
+    "access": "Publisher full-text search-index excerpt",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "sharpe1966",
+    "author": "Sharpe, W. F.",
+    "year": 1966,
+    "title": "Mutual Fund Performance",
+    "publication": "The Journal of Business, 39(1), Part 2, 119–138",
+    "url": "https://web.stanford.edu/~wfsharpe/art/mfp.pdf",
+    "evidence": "Original paper hosted on author's Stanford site; original reward-to-variability measure. Identified by author's articles page https://web.stanford.edu/~wfsharpe/art/art1.htm.",
+    "access": "Author-hosted original-paper search-index excerpt",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "sharpe1994",
+    "author": "Sharpe, W. F.",
+    "year": 1994,
+    "title": "The Sharpe Ratio",
+    "publication": "The Journal of Portfolio Management, Fall 1994",
+    "url": "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm",
+    "evidence": "Full text accessed. Ex-post ratio uses mean and standard deviation of differential return. Annualization depends on time aggregation and serial dependence. Historical ratios need not predict future ratios.",
+    "access": "Full author-hosted article",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "blackscholes1973",
+    "author": "Black, F., & Scholes, M.",
+    "year": 1973,
+    "title": "The Pricing of Options and Corporate Liabilities",
+    "publication": "Journal of Political Economy, 81(3), 637–654",
+    "url": "https://doi.org/10.1086/260062",
+    "evidence": "Publisher abstract and bibliographic record verified. No-arbitrage option valuation. Original-paper university copy: https://www.cs.princeton.edu/courses/archive/fall2000/cs323/resources/blackscholes.pdf.",
+    "access": "Publisher abstract and metadata",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "merton1973",
+    "author": "Merton, R. C.",
+    "year": 1973,
+    "title": "Theory of Rational Option Pricing",
+    "publication": "The Bell Journal of Economics and Management Science, 4(1), 141–183",
+    "url": "https://www.maths.tcd.ie/~dmcgowan/Merton.pdf",
+    "evidence": "Original journal paper hosted by Trinity College Dublin indexed. Abstract describes rational restrictions, dividend effects and extensions of Black-Scholes. Journal DOI 10.2307/3003143. MIT's 1971 working-paper record is a different edition and must not be labeled the 1973 journal version.",
+    "access": "University-hosted original-paper search-index text",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "rbi_nbfc_faq",
+    "author": "Reserve Bank of India",
+    "year": 2017,
+    "title": "All you wanted to know about NBFCs",
+    "publication": "Frequently Asked Questions, question 3",
+    "url": "https://systemhealth.rbi.org.in/Scripts/FS_FAQs.aspx_Id%3D92%26fn%3D14.html",
+    "evidence": "Official RBI indexed FAQ says NBFCs cannot accept demand deposits, are outside the payment and settlement system/cannot issue cheques drawn on themselves, and NBFC depositors lack DICGC insurance. This archived FAQ is used for structural distinctions only; do not use its dated capital thresholds as current regulation.",
+    "access": "Official archived search-index text; direct fetch timed out",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "rbi_sbr2021",
+    "author": "Reserve Bank of India",
+    "year": 2021,
+    "title": "Scale Based Regulation (SBR): A Revised Regulatory Framework for NBFCs",
+    "publication": "RBI/2021-22/112, 22 October 2021",
+    "url": "https://www.rbi.org.in/scripts/bs_circularindexdisplay.aspx/BS_CircularIndexDisplay.aspx?Id=12179",
+    "evidence": "Full official circular accessed. Four regulatory layers based on size, activity and riskiness. General effective date 1 October 2022.",
+    "access": "Full official circular",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "nse_stock_options",
+    "author": "National Stock Exchange of India",
+    "year": null,
+    "title": "Individual Securities F&O",
+    "publication": "Product specifications",
+    "url": "https://www.nseindia.com/static/products-services/equity-derivatives-individual-securities",
+    "evidence": "Official page accessed. Stock options are European style and physically settled.",
+    "access": "Full official page",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "nifty_tri",
+    "author": "NSE Indices",
+    "year": null,
+    "title": "Total Return Index",
+    "publication": "Index Concepts",
+    "url": "https://www.niftyindices.com/resources/index-concepts/total-return-index",
+    "evidence": "Official methodology text verified. Price index excludes dividend receipts, total-return index includes them with reinvestment.",
+    "access": "Official search-index full text",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "hdfc_bonus2025",
+    "author": "HDFC Bank Limited",
+    "year": 2025,
+    "title": "Allotment of bonus equity shares",
+    "publication": "Stock exchange disclosure, 28 August 2025",
+    "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/about-us/stakeholders-information/disclosures/other-stock-exchange-disclosure/18/28aug2025-se-disclosure-allotment.pdf",
+    "evidence": "Company disclosure indexed. 1:1 bonus; record date 27 August 2025; allotment 28 August 2025.",
+    "access": "Company PDF search-index excerpt",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "bajaj_action2025",
+    "author": "Metropolitan Stock Exchange of India",
+    "year": 2025,
+    "title": "Bajaj Finance corporate action",
+    "publication": "Corporate securities information",
+    "url": "https://www.msei.in/corporates/corporate-securities-information/corporate-update/default?symbol=BAJFINANCE&type=4&vmode=vm",
+    "evidence": "Exchange disclosure indexed: 16 June 2025 face-value split Rs2 to Re1 and bonus ratio4:1. Combined share factor10 follows arithmetically.",
+    "access": "Official exchange search-index row",
+    "verified_date": "2026-10-13"
+  },
+  {
+    "id": "shriram_merger2023",
+    "author": "Shriram Finance Limited",
+    "year": 2023,
+    "title": "Annual Report 2022–23",
+    "publication": "Directors' Report, p.52",
+    "url": "https://cdn.shriramfinance.in/uploads/investor/pdf/Shriram_Finance-AR-2022-23.pdf",
+    "evidence": "Company report p.52 indexed. Composite merger involving Shriram Capital and Shriram City Union. Name changed from Shriram Transport Finance to Shriram Finance effective30 November2022; appointed date1 April2022. Business composition changes.",
+    "access": "Original company PDF search-index text",
+    "verified_date": "2026-10-13"
+  }
+]

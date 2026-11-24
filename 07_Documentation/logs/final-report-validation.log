@@ -1,0 +1,8 @@
+/tmp/finance-archive-aq6n4T/Finance_Project_Complete/02_Completed_Project/output/Final_Research_Report.docx
+convert /tmp/finance-archive-aq6n4T/Finance_Project_Complete/02_Completed_Project/output/Final_Research_Report.docx as a Writer document -> /tmp/finance-report-final-cash/Final_Research_Report.pdf using filter : writer_pdf_Export
+PASS: raw source hashes, aligned dates and archived NSE data
+PASS: agreement with delivered numerical baseline
+PASS: raw adjusted-price returns, equity metrics, annual returns, drawdown and portfolio diversification
+PASS: NSE contract selection, spot and premiums, pre-expiry volatility, pricing, implied volatility and Greeks
+PASS: 7 workbook sheets, 2 charts, no cached formula errors and full-series agreement with independent Python
+PASS: 12 final charts, verified report values and both report formats

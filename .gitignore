@@ -1,0 +1,10 @@
+# Runtime artifacts only.
+# Do NOT ignore __pycache__/*.pyc or anything under 01_Original_Project:
+# 07_Documentation/ORIGINAL_FILE_HASHES.sha256 covers all 3,422 preserved
+# files (including .deps/**/*.pyc) and verify_originals.py fails on any
+# missing or extra file.
+.venv/
+venv/
+Thumbs.db
+.DS_Store
+Desktop.ini

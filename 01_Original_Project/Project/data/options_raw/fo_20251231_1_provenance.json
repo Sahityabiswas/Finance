@@ -1,0 +1,10 @@
+{
+  "label": "fo_20251231_1",
+  "url": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251231_F_0000.csv.zip",
+  "retrieved_utc": "2026-10-13T14:11:30.838558+00:00",
+  "status": 200,
+  "size": 1094173,
+  "content_type": "application/zip",
+  "path": "data\\options_raw\\fo_20251231_1.zip",
+  "sha256": "b2c16a1294b0cb3450a70f257d0dcedde1a3fa48a95465d126d06d96b4ad80fe"
+}

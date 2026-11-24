@@ -1,0 +1,410 @@
+{
+  "provider": "Yahoo Finance chart API (secondary vendor; NSE-listed securities)",
+  "request_start": "2020-12-28",
+  "request_end_exclusive": "2026-01-01",
+  "analysis_period": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "sources": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/HDFCBANK.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/HDFCBANK.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:12.869714+00:00",
+      "sha256": "21aa77c33b388a8d0714c9a231290b6fe21283fcd3d8f98d52545726c13e4355",
+      "bytes": 114360,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "43kr8h9lcsf00",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "31",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1624938300": {
+            "amount": 3.25,
+            "date": 1624938300
+          },
+          "1652327100": {
+            "amount": 7.75,
+            "date": 1652327100
+          },
+          "1684208700": {
+            "amount": 9.5,
+            "date": 1684208700
+          },
+          "1715312700": {
+            "amount": 9.75,
+            "date": 1715312700
+          },
+          "1750995900": {
+            "amount": 11.0,
+            "date": 1750995900
+          },
+          "1753415100": {
+            "amount": 2.5,
+            "date": 1753415100
+          }
+        },
+        "splits": {
+          "1756179900": {
+            "date": 1756179900,
+            "numerator": 2.0,
+            "denominator": 1.0,
+            "splitRatio": "2:1"
+          }
+        }
+      }
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ICICIBANK.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/ICICIBANK.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:12.869714+00:00",
+      "sha256": "d2bf32939d73b44c9c51b1a46c0e4d573f31da4c1f0f1303837429319003b68f",
+      "bytes": 120020,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "7kvbe95lcsf00",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "31",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1627530300": {
+            "amount": 2.0,
+            "date": 1627530300
+          },
+          "1659930300": {
+            "amount": 5.0,
+            "date": 1659930300
+          },
+          "1691552700": {
+            "amount": 8.0,
+            "date": 1691552700
+          },
+          "1723434300": {
+            "amount": 10.0,
+            "date": 1723434300
+          },
+          "1754970300": {
+            "amount": 11.0,
+            "date": 1754970300
+          }
+        }
+      }
+    },
+    {
+      "symbol": "SBIN.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SBIN.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/SBIN.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:12.844191+00:00",
+      "sha256": "cdbad138412512448bd52763950988ca41c83d2f03a04074e5fc12a542dc7adb",
+      "bytes": 117474,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "0iqa9shlcsf00",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "40",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1622691900": {
+            "amount": 4.0,
+            "date": 1622691900
+          },
+          "1653450300": {
+            "amount": 7.1,
+            "date": 1653450300
+          },
+          "1685504700": {
+            "amount": 11.3,
+            "date": 1685504700
+          },
+          "1716349500": {
+            "amount": 13.7,
+            "date": 1716349500
+          },
+          "1747367100": {
+            "amount": 15.9,
+            "date": 1747367100
+          }
+        }
+      }
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAJFINANCE.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/BAJFINANCE.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:13.478822+00:00",
+      "sha256": "40a962b102962e1258ad36ee5c0efe36ffc0eedf3abf4c2afffac81a8971e23f",
+      "bytes": 119163,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "0hie35plcsf01",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "42",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-baseline-production-sg3.finance-k8s:4080/*",
+        "Age": "1",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1625715900": {
+            "amount": 1.0,
+            "date": 1625715900
+          },
+          "1656560700": {
+            "amount": 2.0,
+            "date": 1656560700
+          },
+          "1688096700": {
+            "amount": 3.0,
+            "date": 1688096700
+          },
+          "1718941500": {
+            "amount": 3.6,
+            "date": 1718941500
+          },
+          "1746762300": {
+            "amount": 1.2,
+            "date": 1746762300
+          },
+          "1748576700": {
+            "amount": 4.4,
+            "date": 1748576700
+          }
+        },
+        "splits": {
+          "1750045500": {
+            "date": 1750045500,
+            "numerator": 2.0,
+            "denominator": 1.0,
+            "splitRatio": "2:1"
+          }
+        }
+      }
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SHRIRAMFIN.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/SHRIRAMFIN.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:13.595628+00:00",
+      "sha256": "ed194021b4c2a989b5270bfdab1f8d8436f07d204cc915a4250ec73c9eb40a7c",
+      "bytes": 127097,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "79demn5lcsf01",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "40",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "1",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1617594300": {
+            "amount": 1.2,
+            "date": 1617594300
+          },
+          "1623815100": {
+            "amount": 1.2,
+            "date": 1623815100
+          },
+          "1636429500": {
+            "amount": 1.6,
+            "date": 1636429500
+          },
+          "1646970300": {
+            "amount": 2.4,
+            "date": 1646970300
+          },
+          "1672717500": {
+            "amount": 3.0,
+            "date": 1672717500
+          },
+          "1686887100": {
+            "amount": 4.0,
+            "date": 1686887100
+          },
+          "1699242300": {
+            "amount": 4.0,
+            "date": 1699242300
+          },
+          "1707191100": {
+            "amount": 2.0,
+            "date": 1707191100
+          },
+          "1721706300": {
+            "amount": 3.0,
+            "date": 1721706300
+          },
+          "1730951100": {
+            "amount": 4.4,
+            "date": 1730951100
+          },
+          "1738295100": {
+            "amount": 2.5,
+            "date": 1738295100
+          },
+          "1752205500": {
+            "amount": 3.0,
+            "date": 1752205500
+          },
+          "1762487100": {
+            "amount": 4.8,
+            "date": 1762487100
+          }
+        },
+        "splits": {
+          "1736480700": {
+            "date": 1736480700,
+            "numerator": 5.0,
+            "denominator": 1.0,
+            "splitRatio": "5:1"
+          }
+        }
+      }
+    },
+    {
+      "symbol": "MUTHOOTFIN.NS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MUTHOOTFIN.NS?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/MUTHOOTFIN.NS.json",
+      "retrieved_utc": "2026-10-13T14:11:13.595628+00:00",
+      "sha256": "95bc9e3eddb7321c690abdbafbecf0f84323f8e978f945e9776ec8fc629d7f2f",
+      "bytes": 113619,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "70r3rg1lcsf01",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "29",
+        "date": "Tue, 13 Oct 2026 14:11:12 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "1",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {
+        "dividends": {
+          "1619063100": {
+            "amount": 20.0,
+            "date": 1619063100
+          },
+          "1650858300": {
+            "amount": 20.0,
+            "date": 1650858300
+          },
+          "1681789500": {
+            "amount": 22.0,
+            "date": 1681789500
+          },
+          "1717127100": {
+            "amount": 24.0,
+            "date": 1717127100
+          },
+          "1745552700": {
+            "amount": 26.0,
+            "date": 1745552700
+          }
+        }
+      }
+    },
+    {
+      "symbol": "^NSEI",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1609113600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "raw_file": "data/raw/NSEI.json",
+      "retrieved_utc": "2026-10-13T14:11:14.257244+00:00",
+      "sha256": "36272853951c1f946be6162400840e99bdb7ed28640a6c980423ea220b6a8995",
+      "bytes": 111774,
+      "observations": 1240,
+      "http_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "y-rid": "6leecadlcsf01",
+        "vary": "Origin,Accept-Encoding",
+        "cache-control": "public, max-age=10, stale-while-revalidate=20",
+        "x-envoy-upstream-service-time": "10",
+        "date": "Tue, 13 Oct 2026 14:11:13 GMT",
+        "server": "ATS",
+        "x-envoy-decorator-operation": "finance-chart-api--mtls-production-sg3.finance-k8s:4080/*",
+        "Age": "0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "events": {}
+    }
+  ],
+  "adjustment_policy": "Use provider adjusted close for equity returns; provider OHLC is split-adjusted. Adj close additionally reflects dividend adjustments. Never apply split factors again. NIFTY 50 is a price index, not a total-return index."
+}

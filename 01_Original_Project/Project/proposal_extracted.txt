@@ -1,0 +1,115 @@
+PAGE 1
+PROJECT PROPOSAL
+Risk-Return Analysis and Derivative-Based Comparison of NBFCs and
+Commercial Banks in India
+A quantitative study of stock-market performance, portfolio diversification, and selected equity options
+Sahitya Biswas  Subhajit Paul Anirban Nayak
+hereissahityadeybiswas@gmail.com
+psubhajit042@gmail.com
+anirbannayak07@gmail.com
+1. Problem Statement
+Commercial banks and Non-Banking Financial Companies (NBFCs) are two important parts of India's financial
+sector. Although both provide financial services and credit, they operate with different business models and may
+respond differently to changes in market conditions.
+From an investor's point of view, it is useful to understand which segment provides better returns and how much
+risk an investor has to take to achieve those returns. It is also important to know whether investing in both banks
+and NBFCs together can reduce overall portfolio risk.
+This project therefore focuses on comparing selected Indian commercial banks and NBFCs using historical
+stock-market data. The study will examine their returns, volatility and risk-adjusted performance and will then
+compare simple portfolios made from the two groups. A basic option-pricing analysis will also be included to
+understand how the risk of selected financial-sector stocks is reflected in the derivatives market.
+2. Abstract
+This project aims to study and compare the risk and return characteristics of selected commercial banks and
+NBFCs in India. Historical stock-price data will be used to calculate returns, volatility and basic risk-adjusted
+measures for companies from both sectors.
+The study will first examine the individual performance of selected banks and NBFCs and identify which group has
+historically provided better returns relative to its risk. The correlation between stocks will then be studied to
+understand whether combining banks and NBFCs can provide diversification benefits. Simple portfolio
+combinations will be compared to determine whether a mixed portfolio can achieve a better balance between risk
+and return.
+As an additional part of the study, selected equity options will be analyzed using the Black-Scholes model. The
+theoretical option prices will be compared with market prices, and selected option Greeks will be calculated to
+understand the effect of stock price and volatility on option values.
+The overall aim is to provide a simple quantitative comparison of banks and NBFCs from an investor's perspective
+without making the project unnecessarily complex.
+3. Dataset
+PAGE 2
+The project will primarily use publicly available historical financial-market data from the National Stock Exchange
+of India (NSE). Approximately five years of historical data will be used, subject to data availability.
+Commercial Banks
+●
+HDFC Bank
+●
+ICICI Bank
+●
+State Bank of India
+NBFCs
+●
+Bajaj Finance
+●
+Shriram Finance
+●
+Muthoot Finance
+Equity dataset fields: Date, Open, High, Low, Closing Price, Adjusted/appropriate Closing Price, and Trading
+Volume.
+Options dataset fields: Date, Stock Price, Strike Price, Expiry Date, Call/Put, Option Price, Volume, Open Interest,
+and Implied Volatility.
+4. Methodology
+Step 1 – Data Collection and Cleaning: Historical stock-price data will be collected from NSE and cleaned before
+analysis. Missing observations and inconsistent records will be handled appropriately.
+Step 2 – Return Calculation: Daily stock returns will be calculated from historical prices. Average returns will then
+be compared across the selected banks and NBFCs.
+Step 3 – Risk Analysis: The main risk measure will be volatility, calculated using the standard deviation of returns.
+Maximum drawdown, Sharpe ratio and beta will also be considered.
+Step 4 – Bank vs NBFC Comparison: Average return and volatility will be compared using tables and visualizations
+to identify differences in performance and risk.
+Step 5 – Simple Portfolio Analysis: Three portfolios will be constructed: a bank-only portfolio, an NBFC-only
+portfolio, and a 50:50 Bank-NBFC portfolio. Their return, volatility and Sharpe ratio will be compared.
+Step 6 – Basic Option Analysis: For selected stocks with actively traded options, the Black-Scholes model will be
+used to calculate theoretical option prices. These will be compared with observed market prices, and selected
+Greeks such as Delta, Gamma and Vega will be calculated.
+5. Objectives
+Main Objective: To compare the risk and return characteristics of selected Indian commercial banks and NBFCs
+and examine whether combining the two sectors provides diversification benefits to investors.
+1.
+To calculate and compare the historical returns of selected commercial banks and NBFCs.
+2.
+To compare the volatility and risk associated with the two groups.
+3.
+To evaluate the risk-adjusted performance of selected stocks using the Sharpe ratio and beta.
+4.
+To determine whether NBFCs provide higher returns at the cost of higher risk compared with commercial
+banks.
+PAGE 3
+5.
+To construct simple bank-only, NBFC-only and combined portfolios.
+6.
+To examine whether combining banks and NBFCs improves the risk-return balance of a portfolio.
+7.
+To apply the Black-Scholes model to a small selection of actively traded equity options.
+8.
+To compare theoretical option prices with observed market prices and study selected option Greeks.
+6. Dataset Sources
+Data
+Source
+Purpose
+Historical stock prices
+NSE Historical Reports
+Returns, volatility, risk analysis
+Equity & index reports
+NSE All Reports
+Market benchmark and comparison
+Equity options
+NSE Option Chain
+Black-Scholes and Greeks
+NSE Historical Reports:
+https://www.nseindia.com/static/resources/historical-reports-capital-market-daily-monthly-archives
+NSE All Reports:
+https://www.nseindia.com/all-reports
+NSE Option Chain:
+https://www.nseindia.com/option-chain
+7. Expected Outcome
+The project is expected to provide a clear comparison of the return and risk characteristics of commercial banks
+and NBFCs. It will also show whether combining the two sectors can improve portfolio diversification. The option
+analysis will provide an additional perspective on how market participants price risk in selected financial-sector
+stocks.

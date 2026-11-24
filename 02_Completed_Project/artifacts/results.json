@@ -1,0 +1,689 @@
+{
+  "metadata": {
+    "start_date": "2021-01-01",
+    "end_date": "2025-12-31",
+    "base_date": "2020-12-31",
+    "n_returns": 1236,
+    "n_price_observations": 1237,
+    "calendar_years": 4.999315537303217,
+    "trading_days_per_year": 252,
+    "risk_free_rate": 0.06,
+    "risk_free_daily": 0.00023125256064071564,
+    "currency": "INR",
+    "generated_utc": "2026-11-18T17:56:24.190846+00:00",
+    "return_type": "simple daily adjusted-close return",
+    "portfolio_rebalancing": "daily; equal constituent weights; no taxes or transaction costs",
+    "benchmark": "NIFTY 50 price index (^NSEI), not TRI",
+    "cagr_convention": "(terminal wealth)^(365.25/calendar days)-1",
+    "annual_mean_convention": "252 * arithmetic mean daily return",
+    "volatility_convention": "sample daily standard deviation (ddof=1) * sqrt(252)",
+    "sharpe_convention": "(mean daily return - effective daily rf) / sample daily sd * sqrt(252)",
+    "var_convention": "negative linear-interpolated 5th return percentile, 1-day loss at 95% confidence",
+    "cvar_convention": "negative average return at or below the 5th return percentile",
+    "max_drawdown_convention": "minimum wealth / running wealth maximum - 1; includes initial base wealth",
+    "primary_equity_source": "Yahoo Finance chart API; NSE underlying-price and corporate-action checks"
+  },
+  "individual_metrics": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 0.4571880390426164,
+      "cagr": 0.07822053042485955,
+      "annual_mean": 0.09928780107521011,
+      "annual_volatility": 0.21230295527044,
+      "sharpe": 0.19317750778130643,
+      "beta": 1.053261578460626,
+      "max_drawdown": -0.23242849748212924,
+      "var95": 0.019944108868954424,
+      "cvar95": 0.030993885886799535,
+      "daily_mean": 0.00039399921061591313,
+      "daily_std": 0.013373829101182231,
+      "best_day": 0.10013300910847356,
+      "worst_day": -0.08435816933540463
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 1.5950075733833353,
+      "cagr": 0.21014961223887507,
+      "annual_mean": 0.21866985541196127,
+      "annual_volatility": 0.22075641413064104,
+      "sharpe": 0.7265664771832249,
+      "beta": 1.0821897002205783,
+      "max_drawdown": -0.22329810841757614,
+      "var95": 0.01877916640190902,
+      "cvar95": 0.028880905233132248,
+      "daily_mean": 0.0008677375214760368,
+      "daily_std": 0.013906346955049076,
+      "best_day": 0.12439450752330505,
+      "worst_day": -0.07633626236988356
+    },
+    {
+      "ticker": "SBIN",
+      "name": "State Bank of India",
+      "sector": "Bank",
+      "n": 1236,
+      "total_return": 2.8714873975311423,
+      "cagr": 0.3109667215160625,
+      "annual_mean": 0.3105825045425439,
+      "annual_volatility": 0.26256258338090355,
+      "sharpe": 0.9609398872156057,
+      "beta": 1.2297337528830958,
+      "max_drawdown": -0.23944134526280159,
+      "var95": 0.02260739475964116,
+      "cvar95": 0.03502408648426748,
+      "daily_mean": 0.0012324702561212059,
+      "daily_std": 0.016539888076584082,
+      "best_day": 0.1070120459285695,
+      "worst_day": -0.14404019893146525
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "name": "Bajaj Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 0.9024539823551521,
+      "cagr": 0.1372880618672121,
+      "annual_mean": 0.17212742698889327,
+      "annual_volatility": 0.2866298739172692,
+      "sharpe": 0.39720835847101654,
+      "beta": 1.2538223300991538,
+      "max_drawdown": -0.3336233427764006,
+      "var95": 0.026969351742193753,
+      "cvar95": 0.04045209784341343,
+      "daily_mean": 0.0006830453451940209,
+      "daily_std": 0.018055984873973648,
+      "best_day": 0.10634961769930062,
+      "worst_day": -0.0772731529089683
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "name": "Shriram Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 4.213313565704151,
+      "cagr": 0.39136926492885715,
+      "annual_mean": 0.4028395258416227,
+      "annual_volatility": 0.3645984809979746,
+      "sharpe": 0.9450502361310621,
+      "beta": 1.3164554548323213,
+      "max_drawdown": -0.38353350515618845,
+      "var95": 0.03140741178175674,
+      "cvar95": 0.04642924284952479,
+      "daily_mean": 0.0015985695469905663,
+      "daily_std": 0.0229675454550607,
+      "best_day": 0.1622264846786039,
+      "worst_day": -0.11479310072639215
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "name": "Muthoot Finance",
+      "sector": "NBFC",
+      "n": 1236,
+      "total_return": 2.4138165948243233,
+      "cagr": 0.27838786169805685,
+      "annual_mean": 0.29376580633526334,
+      "annual_volatility": 0.29524230878022634,
+      "sharpe": 0.7976165815350608,
+      "beta": 0.8376893531007354,
+      "max_drawdown": -0.4570447403633713,
+      "var95": 0.025931965452862055,
+      "cvar95": 0.0371116255812146,
+      "daily_mean": 0.0011657373267272354,
+      "daily_std": 0.018598517274690963,
+      "best_day": 0.09860950455703321,
+      "worst_day": -0.1240525811932276
+    }
+  ],
+  "portfolio_metrics": [
+    {
+      "ticker": "BANKS",
+      "name": "Bank portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 1.5572794187238461,
+      "cagr": 0.20660967292497734,
+      "annual_mean": 0.20951338700990507,
+      "annual_volatility": 0.18988451744437945,
+      "sharpe": 0.7964722125001317,
+      "beta": 1.121728343854767,
+      "max_drawdown": -0.1856482013437779,
+      "var95": 0.016794081029406282,
+      "cvar95": 0.02644303982545514,
+      "daily_mean": 0.0008314023294043852,
+      "daily_std": 0.011961600261412715,
+      "best_day": 0.09593500117028879,
+      "worst_day": -0.09233892971201767
+    },
+    {
+      "ticker": "NBFCS",
+      "name": "NBFC portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 2.5935235645843226,
+      "cagr": 0.29157405039457895,
+      "annual_mean": 0.2895775863885931,
+      "annual_volatility": 0.2394749686896682,
+      "sharpe": 0.9658710568905984,
+      "beta": 1.135989046010737,
+      "max_drawdown": -0.32084150401851685,
+      "var95": 0.02236751254193948,
+      "cvar95": 0.03202306316505996,
+      "daily_mean": 0.0011491174063039409,
+      "daily_std": 0.01508550505661527,
+      "best_day": 0.05717591313949518,
+      "worst_day": -0.0829469292628281
+    },
+    {
+      "ticker": "MIXED",
+      "name": "50:50 mixed portfolio",
+      "sector": "Portfolio",
+      "n": 1236,
+      "total_return": 2.1075442160092464,
+      "cagr": 0.2545759179836937,
+      "annual_mean": 0.2495454866992491,
+      "annual_volatility": 0.1910598238433586,
+      "sharpe": 1.0010992241602943,
+      "beta": 1.1288586949327517,
+      "max_drawdown": -0.23699197172208308,
+      "var95": 0.017597423537915647,
+      "cvar95": 0.02662661267818,
+      "daily_mean": 0.0009902598678541632,
+      "daily_std": 0.012035637605365137,
+      "best_day": 0.07223231982055345,
+      "worst_day": -0.07822207515915507
+    }
+  ],
+  "benchmark_metrics": {
+    "ticker": "NIFTY50",
+    "name": "NIFTY 50 price index",
+    "sector": "Benchmark",
+    "n": 1236,
+    "total_return": 0.8688361334865047,
+    "cagr": 0.13323943978939057,
+    "annual_mean": 0.1373088957876565,
+    "annual_volatility": 0.13982354973800887,
+    "sharpe": 0.5652356177073383,
+    "beta": 1.0000000000000004,
+    "max_drawdown": -0.17229756084670145,
+    "var95": 0.013497188116530418,
+    "cvar95": 0.020039889751857845,
+    "daily_mean": 0.0005448765705859385,
+    "daily_std": 0.008808055715167665,
+    "best_day": 0.047423511101338356,
+    "worst_day": -0.05929359941641077
+  },
+  "annual_returns": [
+    {
+      "year": 2021,
+      "HDFCBANK": 0.03446552558111682,
+      "ICICIBANK": 0.38737924066351104,
+      "SBIN": 0.6901296013747591,
+      "BAJFINANCE": 0.3197940101112482,
+      "SHRIRAMFIN": 0.17819293867778874,
+      "MUTHOOTFIN": 0.2575370506123795,
+      "NIFTY50": 0.24119303958731897,
+      "BANKS": 0.36028442484122225,
+      "NBFCS": 0.284607798284368,
+      "MIXED": 0.33157379886877725
+    },
+    {
+      "year": 2022,
+      "HDFCBANK": 0.11334353040989842,
+      "ICICIBANK": 0.21083014701514302,
+      "SBIN": 0.3536265849551776,
+      "BAJFINANCE": -0.054198441577269274,
+      "SHRIRAMFIN": 0.14410678217641548,
+      "MUTHOOTFIN": -0.2782383939369333,
+      "NIFTY50": 0.0432896048000333,
+      "BANKS": 0.23272314078713752,
+      "NBFCS": -0.0563762817720902,
+      "MIXED": 0.08369167896138263
+    },
+    {
+      "year": 2023,
+      "HDFCBANK": 0.06185027076951699,
+      "ICICIBANK": 0.12791526134504183,
+      "SBIN": 0.06652542849175114,
+      "BAJFINANCE": 0.1191883280616175,
+      "SHRIRAMFIN": 0.5445341544010462,
+      "MUTHOOTFIN": 0.4184933015256669,
+      "NIFTY50": 0.2002783413093141,
+      "BANKS": 0.09182488068187822,
+      "NBFCS": 0.36977593116484964,
+      "MIXED": 0.22749707130175678
+    },
+    {
+      "year": 2024,
+      "HDFCBANK": 0.05137286300681776,
+      "ICICIBANK": 0.29709362415191176,
+      "SBIN": 0.2589068419940077,
+      "BAJFINANCE": -0.06420777252919951,
+      "SHRIRAMFIN": 0.4304838259894246,
+      "MUTHOOTFIN": 0.46800883743234967,
+      "NIFTY50": 0.08804772615806189,
+      "BANKS": 0.21139953261359334,
+      "NBFCS": 0.27344787778752644,
+      "MIXED": 0.24783963221321903
+    },
+    {
+      "year": 2025,
+      "HDFCBANK": 0.13331422673245097,
+      "ICICIBANK": 0.05587477552275222,
+      "SBIN": 0.2603586840485652,
+      "BAJFINANCE": 0.45520901451654083,
+      "SHRIRAMFIN": 0.7504527953378011,
+      "MUTHOOTFIN": 0.8062158968011086,
+      "NIFTY50": 0.10508859224964939,
+      "BANKS": 0.15303508042774716,
+      "NBFCS": 0.6994969509516529,
+      "MIXED": 0.40594100466562644
+    }
+  ],
+  "correlation": {
+    "HDFCBANK": {
+      "HDFCBANK": 1.0,
+      "ICICIBANK": 0.5324825013585885,
+      "SBIN": 0.4232278306997365,
+      "BAJFINANCE": 0.41565840760179007,
+      "SHRIRAMFIN": 0.35685630336167895,
+      "MUTHOOTFIN": 0.23445137196346416
+    },
+    "ICICIBANK": {
+      "HDFCBANK": 0.5324825013585885,
+      "ICICIBANK": 1.0,
+      "SBIN": 0.5578129986085232,
+      "BAJFINANCE": 0.43544361404538634,
+      "SHRIRAMFIN": 0.38845413385135125,
+      "MUTHOOTFIN": 0.24465984605483931
+    },
+    "SBIN": {
+      "HDFCBANK": 0.4232278306997365,
+      "ICICIBANK": 0.5578129986085232,
+      "SBIN": 1.0,
+      "BAJFINANCE": 0.4350799063319836,
+      "SHRIRAMFIN": 0.40796269165241755,
+      "MUTHOOTFIN": 0.2912221584022921
+    },
+    "BAJFINANCE": {
+      "HDFCBANK": 0.41565840760179007,
+      "ICICIBANK": 0.43544361404538634,
+      "SBIN": 0.4350799063319836,
+      "BAJFINANCE": 1.0,
+      "SHRIRAMFIN": 0.39972139483959285,
+      "MUTHOOTFIN": 0.34179786637176957
+    },
+    "SHRIRAMFIN": {
+      "HDFCBANK": 0.35685630336167895,
+      "ICICIBANK": 0.38845413385135125,
+      "SBIN": 0.40796269165241755,
+      "BAJFINANCE": 0.39972139483959285,
+      "SHRIRAMFIN": 1.0,
+      "MUTHOOTFIN": 0.3366740873004601
+    },
+    "MUTHOOTFIN": {
+      "HDFCBANK": 0.23445137196346416,
+      "ICICIBANK": 0.24465984605483931,
+      "SBIN": 0.2912221584022921,
+      "BAJFINANCE": 0.34179786637176957,
+      "SHRIRAMFIN": 0.3366740873004601,
+      "MUTHOOTFIN": 1.0
+    }
+  },
+  "diagnostics": {
+    "sources": [
+      {
+        "ticker": "HDFCBANK",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 1,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "ICICIBANK",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 1,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "SBIN",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 1,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "BAJFINANCE",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 1,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 2,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "MUTHOOTFIN",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 1,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      },
+      {
+        "ticker": "NIFTY50",
+        "raw_rows": 1240,
+        "missing_rows": 0,
+        "duplicate_dates": 0,
+        "zero_volume_rows": 12,
+        "first_raw_date": "2020-12-28",
+        "last_raw_date": "2025-12-31"
+      }
+    ],
+    "dropped_dates": [],
+    "retained_price_rows": 8659,
+    "annual_return_counts": {
+      "2021": 248,
+      "2022": 248,
+      "2023": 245,
+      "2024": 246,
+      "2025": 249
+    },
+    "split_continuity": [
+      {
+        "ticker": "BAJFINANCE",
+        "ex_date": "2025-06-16",
+        "official_factor": 10,
+        "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP68547.pdf",
+        "prior_trading_day": "2025-06-13",
+        "adjusted_return": 0.005251371778720593,
+        "prior_adjusted_close": 927.3990478515625,
+        "ex_date_adjusted_close": 932.2691650390625
+      },
+      {
+        "ticker": "HDFCBANK",
+        "ex_date": "2025-08-26",
+        "official_factor": 2,
+        "source_url": "https://www.nseindia.com/get-quote/equity/HDFCBANK/HDFC-Bank-Limited",
+        "prior_trading_day": "2025-08-25",
+        "adjusted_return": -0.008808058620231485,
+        "prior_adjusted_close": 966.0717163085938,
+        "ex_date_adjusted_close": 957.5625
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "ex_date": "2025-01-10",
+        "official_factor": 5,
+        "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP66059.pdf",
+        "prior_trading_day": "2025-01-09",
+        "adjusted_return": -0.05333035980934109,
+        "prior_adjusted_close": 550.3759155273438,
+        "ex_date_adjusted_close": 521.024169921875
+      }
+    ],
+    "official_close_checks": [
+      {
+        "date": "2025-12-31",
+        "ticker": "BAJFINANCE",
+        "yahoo_close": 986.7999877929688,
+        "nse_fo_underlying_price": 986.8,
+        "difference": -1.2207031204525265e-05,
+        "status": "within_tolerance"
+      },
+      {
+        "date": "2025-12-31",
+        "ticker": "HDFCBANK",
+        "yahoo_close": 991.2000122070312,
+        "nse_fo_underlying_price": 991.2,
+        "difference": 1.2207031204525265e-05,
+        "status": "within_tolerance"
+      },
+      {
+        "date": "2025-12-31",
+        "ticker": "ICICIBANK",
+        "yahoo_close": 1342.9000244140625,
+        "nse_fo_underlying_price": 1342.9,
+        "difference": 2.441406240905053e-05,
+        "status": "within_tolerance"
+      },
+      {
+        "date": "2025-12-31",
+        "ticker": "MUTHOOTFIN",
+        "yahoo_close": 3811.699951171875,
+        "nse_fo_underlying_price": 3811.75,
+        "difference": -0.050048828125,
+        "status": "documented_source_difference"
+      },
+      {
+        "date": "2025-12-31",
+        "ticker": "SBIN",
+        "yahoo_close": 982.2000122070312,
+        "nse_fo_underlying_price": 982.2,
+        "difference": 1.2207031204525265e-05,
+        "status": "within_tolerance"
+      },
+      {
+        "date": "2025-12-31",
+        "ticker": "SHRIRAMFIN",
+        "yahoo_close": 996.2000122070312,
+        "nse_fo_underlying_price": 996.2,
+        "difference": 1.2207031204525265e-05,
+        "status": "within_tolerance"
+      }
+    ],
+    "max_abs_daily_return": {
+      "HDFCBANK": 0.10013300910847356,
+      "ICICIBANK": 0.12439450752330505,
+      "SBIN": 0.14404019893146525,
+      "BAJFINANCE": 0.10634961769930062,
+      "SHRIRAMFIN": 0.1622264846786039,
+      "MUTHOOTFIN": 0.1240525811932276,
+      "NIFTY50": 0.05929359941641077
+    },
+    "tests_passed": [
+      "no missing/duplicate/nonpositive prices",
+      "OHLC internal consistency",
+      "same dates across all seven series",
+      "five NSE close checks within 0.011 INR and documented MUTHOOTFIN 0.05 INR difference",
+      "2025 corporate action return continuity",
+      "mixed weighting identity",
+      "geometric stock wealth identity",
+      "NIFTY beta=1",
+      "annual versus daily compounding identity",
+      "CVaR >= VaR",
+      "mixed variance equals covariance quadratic form",
+      "absolute daily adjusted returns below 50%"
+    ]
+  },
+  "sensitivity": {
+    "buy_and_hold": [
+      {
+        "ticker": "BANKS",
+        "name": "Bank portfolio",
+        "sector": "Portfolio",
+        "n": 1236,
+        "total_return": 1.6412276699856698,
+        "cagr": 0.214430644925101,
+        "annual_mean": 0.21747339247301536,
+        "annual_volatility": 0.1968372834820096,
+        "sharpe": 0.8087784203042271,
+        "beta": 1.140323984946201,
+        "max_drawdown": -0.1843349264039612,
+        "var95": 0.016410446243143917,
+        "cvar95": 0.027178114175317066,
+        "daily_mean": 0.0008629896526706959,
+        "daily_std": 0.012399583353307604,
+        "best_day": 0.09637753212714606,
+        "worst_day": -0.10766797401990658
+      },
+      {
+        "ticker": "NBFCS",
+        "name": "NBFC portfolio",
+        "sector": "Portfolio",
+        "n": 1236,
+        "total_return": 2.509861380961239,
+        "cagr": 0.2855024959469399,
+        "annual_mean": 0.2867903528268984,
+        "annual_volatility": 0.24778191219544937,
+        "sharpe": 0.9222412787144311,
+        "beta": 1.1720810569523472,
+        "max_drawdown": -0.32636352942614344,
+        "var95": 0.023319605113604286,
+        "cvar95": 0.033094812897478336,
+        "daily_mean": 0.0011380569556622953,
+        "daily_std": 0.015608793310695273,
+        "best_day": 0.05743110552371955,
+        "worst_day": -0.08692280249333784
+      },
+      {
+        "ticker": "MIXED",
+        "name": "50:50 mixed portfolio",
+        "sector": "Portfolio",
+        "n": 1236,
+        "total_return": 2.075544525473426,
+        "cagr": 0.25198107516205526,
+        "annual_mean": 0.24859558750098112,
+        "annual_volatility": 0.19695752302678385,
+        "sharpe": 0.9662994299214435,
+        "beta": 1.1578191651573861,
+        "max_drawdown": -0.23752885057909157,
+        "var95": 0.017779951695286095,
+        "cvar95": 0.02727849268077316,
+        "daily_mean": 0.000986490426591195,
+        "daily_std": 0.012407157732670182,
+        "best_day": 0.07131124358295349,
+        "worst_day": -0.09156199219312011
+      }
+    ],
+    "risk_free": [
+      {
+        "rf": 0.04,
+        "ticker": "BANKS",
+        "sharpe": 0.8968062477046752
+      },
+      {
+        "rf": 0.04,
+        "ticker": "NBFCS",
+        "sharpe": 1.0454279306728897
+      },
+      {
+        "rf": 0.04,
+        "ticker": "MIXED",
+        "sharpe": 1.1008160535533846
+      },
+      {
+        "rf": 0.06,
+        "ticker": "BANKS",
+        "sharpe": 0.7964722125001317
+      },
+      {
+        "rf": 0.06,
+        "ticker": "NBFCS",
+        "sharpe": 0.9658710568905984
+      },
+      {
+        "rf": 0.06,
+        "ticker": "MIXED",
+        "sharpe": 1.0010992241602943
+      },
+      {
+        "rf": 0.08,
+        "ticker": "BANKS",
+        "sharpe": 0.6980063170677243
+      },
+      {
+        "rf": 0.08,
+        "ticker": "NBFCS",
+        "sharpe": 0.8877954686935675
+      },
+      {
+        "rf": 0.08,
+        "ticker": "MIXED",
+        "sharpe": 0.9032390426590261
+      }
+    ]
+  },
+  "trailing252_volatility": [
+    {
+      "ticker": "HDFCBANK",
+      "date": "2025-12-31",
+      "spot_close": 991.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.15529602091214834
+    },
+    {
+      "ticker": "ICICIBANK",
+      "date": "2025-12-31",
+      "spot_close": 1342.9000244140625,
+      "n_returns": 252,
+      "volatility": 0.16204777102113496
+    },
+    {
+      "ticker": "SBIN",
+      "date": "2025-12-31",
+      "spot_close": 982.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.17997064452154657
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "date": "2025-12-31",
+      "spot_close": 986.7999877929688,
+      "n_returns": 252,
+      "volatility": 0.2656305567162444
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "date": "2025-12-31",
+      "spot_close": 996.2000122070312,
+      "n_returns": 252,
+      "volatility": 0.34528682547466016
+    },
+    {
+      "ticker": "MUTHOOTFIN",
+      "date": "2025-12-31",
+      "spot_close": 3811.699951171875,
+      "n_returns": 252,
+      "volatility": 0.3192387094015524
+    }
+  ],
+  "comparison": {
+    "bank_nbfc_portfolio_correlation": 0.5784917448293567,
+    "mean_within_bank_correlation": 0.5045077768889494,
+    "mean_within_nbfc_correlation": 0.35939778283727414,
+    "mean_cross_sector_correlation": 0.35664315925168927,
+    "weighted_sector_volatility": 0.21467974306702384
+  },
+  "limitations": [
+    "Six purposively selected surviving firms do not represent the entire bank or NBFC sector.",
+    "Yahoo adjusted close is a vendor total-return proxy, not an independently reconstructed NSE total-return series.",
+    "NIFTY 50 is a price index; equity dividend-adjusted performance is not directly like-for-like with its returns. Beta uses the price-index returns.",
+    "Shriram pre-30-Nov-2022 history is the predecessor Shriram Transport Finance; the 2022 merger changed the business. HDFC Bank merged with HDFC Limited effective July 2023.",
+    "Yahoo BAJFINANCE split event records 2:1 only; official 10x split/bonus factor is already reflected in historical OHLC. Reapplying any factor would corrupt returns.",
+    "Retrospective adjusted close levels may incorporate distributions after the sample end; common scaling cancels in within-period returns.",
+    "Risk-free rate of 6% is an assumed constant scenario, not a historical realized risk-free series.",
+    "Daily rebalancing ignores transaction costs, taxes, liquidity constraints and implementation costs.",
+    "No statistical claim about causal effects or all financial institutions is justified by this descriptive sample.",
+    "Historical VaR/CVaR are in-sample, one-day estimates and do not bound future losses."
+  ]
+}

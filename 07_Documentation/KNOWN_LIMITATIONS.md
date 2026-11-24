@@ -1,0 +1,9 @@
+# Known limitations
+
+- These six firms and dates form a purposive historical sample. Sector-wide conclusions, formal significance claims and investment forecasts are outside the analyzed design.
+- Vendor adjusted close approximates reinvested stock returns. NIFTY 50 is a price benchmark. HDFC Bank and Shriram mergers affect business comparability. Daily weights imply frictionless rebalancing. The risk-free rate is an assumed constant and historical tail estimates are sample summaries.
+- One vendor/exchange close pair differs by five paise at published precision. The official NSE cash-market close matches the Yahoo close at published precision. The NSE derivatives underlying field differs. The available records do not explain how the derivatives mark was set.
+- Four option closing premiums on one date give a limited comparison. Black–Scholes depends on constant volatility and rates, dividend assumptions, end-of-day timing and frictionless hedging. Calibration using the same premium checks the solver. It gives no independent pricing evidence.
+- Runtime verification was performed on Linux using Python 3.12 and LibreOffice. Windows commands are provided, with no native Windows or Excel/Word COM execution in this environment. Standard spreadsheet recalculation was tested in Calc.
+- The reusable workbook layout reflects the fixed archived research sample. The local builder expects 1,237 price dates and the four fixed ordered option cases. Extending the sample would require extending the original workbook cell ranges and rebuilding the layout. Changing a workbook assumption updates formulas. Implied volatility cells store inversions at the baseline assumptions.
+- The optional original JS builder requires authorized access to its historical private package. The supplied portable pipeline uses the layout it exported. The bundled original .deps tree is retained for preservation and is not needed at runtime.
